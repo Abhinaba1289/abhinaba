@@ -4,7 +4,7 @@ const ProjectsData = [
     description: 'A fully responsive portfolio website showcasing my projects, skills, and contact information using React and Tailwind CSS.',
     tech: ['React.js', 'Tailwind CSS', 'React Router'],
     image: '/portfolio.png',
-    link: 'https://github.com/Abhinaba1289/react-portfolio',
+    link: 'https://github.com/Abhinaba1289/abhinaba',
     live: 'https://abhinaba-one.vercel.app/',
   },
   {
