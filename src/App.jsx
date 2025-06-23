@@ -45,7 +45,7 @@ function App() {
         </div>
       },
       {
-        path: '/Contact',
+        path: '/contact',
         element: <div>
          <Navbar />
          <ContactMain/>
