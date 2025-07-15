@@ -17,24 +17,26 @@ const About = () => {
             className="text-blue-400 mt-2 inline-block hover:underline"
             onClick={() => window.scrollTo(0, 0)}
           >
-            Explore more about my Technical skills →
+            Explore more →
           </NavLink>
 
           <p className="my-4 text-gray-400">
-            Hey! I'm Abhinaba Mukherjee from Bankura, West Bengal.  
-            I'm a passionate Computer Science student currently pursuing B.Tech at Dr. B. C. Roy Engineering College (GPA: 8.82).
+            A passionate <span className="text-blue-400 font-semibold">Frontend Developer</span> with strong skills in
+            <span className="text-blue-400"> HTML</span>, <span className="text-blue-400">CSS</span>,
+            <span className="text-blue-400"> JavaScript</span>, and frameworks like
+            <span className="text-blue-400"> ReactJS</span> and <span className="text-blue-400">Tailwind CSS</span>.
+            I also have a solid programming foundation in
+            <span className="text-blue-400"> C</span>, <span className="text-blue-400">C++</span>, and
+            <span className="text-blue-400"> Java</span>. I’ve built several projects including a
+            <span className="text-blue-400 font-medium"> fully responsive developer portfolio</span>,
+            <span className="text-blue-400 font-medium"> Hold My CV</span> – a resume builder, and
+            <span className="text-blue-400 font-medium"> Dev Detective</span> – a GitHub user data scraper for quick profile overviews.
+            While my current focus is on <span className="text-blue-400">frontend development</span>, I’m actively learning
+            <span className="text-blue-400"> backend technologies</span> to become a
+            <span className="text-blue-400 font-semibold"> Full Stack Developer</span>.
+            I'm seeking opportunities to grow and contribute to impactful tech projects.
           </p>
-          <p className="mb-4 text-gray-400">
-            I have a strong interest in software development, frontend technologies, and building scalable web applications.  
-            Recently, I completed a Web Development Internship at <span className="text-blue-400">Webel Fujisoft Vara COE</span> where I developed "Hold My CV", an award-winning project focused on CV building and management.
-          </p>
-          <p className="mb-4 text-gray-400">
-            I'm continuously learning and enhancing my skills in <span className="text-blue-400">React.js</span>, <span className="text-blue-400">Tailwind CSS</span>, and <span className="text-blue-400">MySQL</span>.  
-            I’m highly motivated to contribute, collaborate, and grow in a dynamic environment.
-          </p>
-          <p className="text-gray-400">
-            Outside of coding, I love exploring AI tools, macro photography, meditation, and spending time teaching and learning new things!
-          </p>
+
 
         </div>
 

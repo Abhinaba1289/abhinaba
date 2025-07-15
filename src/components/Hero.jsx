@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import { MdEmail } from 'react-icons/md';
+import EmailBtn from './EmailBtn';
 
 const Hero = () => {
   const [animate, setAnimate] = useState(false);
@@ -48,23 +48,25 @@ const Hero = () => {
             href="https://github.com/Abhinaba1289"
             className="flex items-center gap-2 bg-gray-900 px-4 py-2 rounded-lg hover:bg-gray-700 transition"
           >
-            <FaGithub /> Github
+            <FaGithub className='text-blue-400' /> Github
           </a>
           <a
             target='_blank'
             href="https://www.linkedin.com/in/abhinaba-mukherjee-13589624a"
             className="flex items-center gap-2 bg-gray-900 px-4 py-2 rounded-lg hover:bg-gray-700 transition"
           >
-            <FaLinkedin /> LinkedIn
+            <FaLinkedin className='text-blue-400' /> LinkedIn
           </a>
-          <a
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://mail.google.com/mail/?view=cm&fs=1&to=abhinaba2048@gmail.com"
             className="flex items-center gap-2 bg-gray-900 px-4 py-2 rounded-lg hover:bg-gray-700 transition"
           >
             <MdEmail /> Email
-          </a>
+          </a> */}
+
+          <EmailBtn/>
 
         </div>
       </div>

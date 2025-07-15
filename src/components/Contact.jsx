@@ -1,6 +1,7 @@
 import React from "react";
 import { Mail, FileText } from "lucide-react";
 import { FaLinkedin } from "react-icons/fa";
+import EmailBtn from "./EmailBtn";
 
 const Contact = () => {
   return (
@@ -19,25 +20,26 @@ const Contact = () => {
           href="https://www.linkedin.com/in/abhinaba-mukherjee-13589624a"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 bg-[#111] px-6 py-3 rounded-md hover:bg-[#1a1a1a] transition"
+          className="flex items-center gap-2 bg-gray-900 px-4 py-2 rounded-lg hover:bg-gray-700 transition cursor-pointer"
         >
           <FaLinkedin className="w-5 h-5 text-blue-400" /> LinkedIn
         </a>
 
-        <a
+        {/* <a
           target="_blank"
           rel="noopener noreferrer"
           href="https://mail.google.com/mail/?view=cm&fs=1&to=abhinaba2048@gmail.com"
           className="flex items-center gap-2 bg-[#111] px-6 py-3 rounded-md hover:bg-[#1a1a1a] transition"
         >
           <Mail className="w-5 h-5 text-blue-400" /> Email
-        </a>
+        </a> */}
+        <EmailBtn/>
 
         <a
           href="/updated-resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 bg-[#111] px-6 py-3 rounded-md hover:bg-[#1a1a1a] transition"
+          className="flex items-center gap-2 bg-gray-900 px-4 py-2 rounded-lg hover:bg-gray-700 transition cursor-pointer"
         >
           <FileText className="w-5 h-5 text-blue-400" /> Resume
         </a>
