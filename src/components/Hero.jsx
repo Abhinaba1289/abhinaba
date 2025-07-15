@@ -23,7 +23,7 @@ const Hero = () => {
           </h1>
         </div>
         <p className="text-lg md:text-2xl text-gray-400 font-semibold mt-4">
-          <span className="text-white">Frontend Developer.</span> Fresher passionate about Full Stack Development.
+          <span className="text-white">Frontend Developer.</span> Passionate about Full Stack Development.
         </p>
 
         <div className="mt-6 md:text-xl space-y-2">
