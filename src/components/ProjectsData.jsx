@@ -16,6 +16,15 @@ const ProjectsData = [
     live: '',
   },
   {
+    name: 'Cancer Detection System',
+    description: 'A machine learning web app that predicts cancer risk using H2O AutoML based on patient data. Includes CSV upload, real-time risk analysis, and clear visualization with a user-friendly interface.',
+    tech: ['Python', 'H2O AutoML', 'HTML', 'CSS', 'JavaScript'],
+    image: '/cancerDetect.jpg',
+    link: 'https://github.com/Abhinaba1289/cancer-detection-system',
+    live: '',
+  },
+
+  {
     name: 'Dev Detective',
     description: 'A GitHub user search tool that fetches and displays user profile data using GitHub API with a responsive UI.',
     tech: ['HTML', 'CSS', 'JavaScript', 'GitHub API'],

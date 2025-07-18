@@ -1,6 +1,6 @@
 import React from 'react';
 import abhiImage from '../assets/abhi.jpg';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaDatabase, FaGithub, FaLaptopCode } from 'react-icons/fa'; 
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaDatabase, FaGithub, FaGit } from 'react-icons/fa'; 
 import { SiTailwindcss } from 'react-icons/si'; // TailwindCSS icon
 import { SiGeeksforgeeks, SiLeetcode } from 'react-icons/si'; // GeeksforGeeks & Leetcode icons
 
@@ -65,6 +65,10 @@ const AboutMain = () => {
               <div className="flex flex-col items-center">
                 <FaGithub size={50} className="text-white" />
                 <p className="mt-2 text-gray-300 text-sm">GitHub</p>
+              </div>
+              <div className="flex flex-col items-center">
+                <FaGit size={50} className="text-white" />
+                <p className="mt-2 text-gray-300 text-sm">Git</p>
               </div>
             </div>
           </div>
