@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 const ProjectCard = ({ name, description, tech, image, link, live }) => {
   return (
     <div className="bg-[#0e0e0e] rounded-xl overflow-hidden border-2 border-gray-800">
-      <img src={image} alt={name} className="w-full h-48 object-cover" />
+      <img src={image} alt={name} className="w-full h-50 lg:h-75 object-cover" />
 
       <div className="p-4">
         <div className="flex items-center justify-between mb-2">
