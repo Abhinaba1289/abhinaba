@@ -13,7 +13,7 @@ const ProjectsData = [
     tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
     image: '/resume-hold-mycv.png',
     link: 'https://github.com/Abhinaba1289/Hold-My-CV',
-    live: '',
+    live: 'https://holdmycv.free.nf/',
   },
   {
     name: 'Cancer Detection System',
